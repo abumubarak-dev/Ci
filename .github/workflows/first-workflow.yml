@@ -1,8 +1,9 @@
-name: Android CI
+name: Android Pull Request & Master CI TEST
 
-  on:
-    push:
-      branches: [ master ]
+on:
+  pull_request:
+    branches:
+      - 'master'
 
 jobs:
   test:
